@@ -1,0 +1,18 @@
+{
+"name": "Nav-Appaiya/techTweet",
+"description": "TechTweet - Auto Tweeter from various resources",
+"keywords": ["twitter", "twitterbot", "autotweeter"],
+"homepage": "https://github.com/Nav-Appaiya/techTweet",
+  "require": {
+    "abraham/twitteroauth": "*",
+    "guzzlehttp/guzzle": "~5.0",
+    "oleander/googl": "dev-master"
+  },
+  "autoload": {
+    "files": [
+      "lib/config.php",
+      "lib/TweakersFeed.php",
+      "lib/HackerSaysFeed.php"
+    ]
+  }
+}
